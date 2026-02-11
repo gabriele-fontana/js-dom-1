@@ -15,5 +15,5 @@ btn.innerHTML = 'accendi'
 function displayYellowLamp(){
     bulbImg.src = './img/yellow_lamp.png'
     bulbImg.alt= 'accesa'
-    
+    btn.innerHTML= 'spegni'
 }
