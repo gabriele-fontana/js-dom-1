@@ -12,6 +12,10 @@
     justify-content: center;
 }
 .page{
-    background-color: lightblue;
     height: 100vh;
+}
+button{
+    padding: 1rem;
+    border-radius:15px;
+
 }
