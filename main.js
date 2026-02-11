@@ -7,4 +7,5 @@ const bulbImg = document.createElement('img');
 bulbImg.src =  './img/white_lamp.png';
 bulbImg.alt='lampadina spenta';
 document.getElementById('img-wrapper').appendChild(bulbImg);
-
+//add text into the button
+btn.innerHTML = 'accendi'
