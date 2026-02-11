@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 #img-wrapper {
     display: flex;
     justify-content: center;
@@ -5,4 +10,8 @@
 #btn-wrapper {
     display: flex;
     justify-content: center;
+}
+.page{
+    background-color: lightblue;
+    height: 100vh;
 }

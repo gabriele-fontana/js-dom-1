@@ -12,8 +12,15 @@ btn.innerHTML = 'accendi'
 // add button interaction with the page
 
 
-function displayYellowLamp(){
-    bulbImg.src = './img/yellow_lamp.png'
-    bulbImg.alt= 'accesa'
-    btn.innerHTML= 'spegni'
+function toggleLamp() {
+    // check if the lamp is off
+    if (bulbImg.src.includes('white_lamp.png')) {
+        // if true, turn on the light
+        bulbImg.src = './img/yellow_lamp.png';
+        btn.innerHTML = 'Spegni';
+    } else {
+        // if false, turn it off
+        bulbImg.src = './img/white_lamp.png';
+        btn.innerHTML = 'Accendi';
+    }
 }
